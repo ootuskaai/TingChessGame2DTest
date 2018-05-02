@@ -32,6 +32,7 @@ public class Board : MonoBehaviour {
                 if (x % 2 == 0 && y % 2 != 0 || x % 2 != 0 && y % 2 == 0 )
                 {  
                    AllCells[x, y].GetComponent<Image>().color = new Color(230f / 255f, 220f / 255f, 187f / 255f, 255f / 255f);
+                    //
                 }
             }
         }
